@@ -17,7 +17,7 @@ function prepareOrder(socket) {
 function sendOrder(socket) {
     console.log('Enviando o pedido');
     socket.emit('status', 3); 
-    setTimeout(() => finish(socket), 80000);
+    setTimeout(() => finish(socket), 8000);
 }
 
 function finish(socket) {
